@@ -1,0 +1,8 @@
+num=int(input("Enter a number:"))
+rev=0
+n=num
+while n>0:
+    rev=rev*10+(n%10)
+    num=num//10
+if num == rev:
+    print("palindrome") 
